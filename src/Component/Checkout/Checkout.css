@@ -1,0 +1,31 @@
+.checkout{
+    align-items: center;
+    background-color: rgb(224, 223, 223);
+    padding: 15px;
+    border-radius: 10px;
+}
+.checkout-title{
+    background-color: rgb(201, 197, 197);
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+.checkout-detail{
+    align-items: center;
+}
+.checkout-price{
+   display: flex;
+   justify-content:space-around;
+}
+.checkout-btn{
+    background-color:#19103F ;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    
+}
+.checkout-btn:hover{
+    background-color: #2F216A;
+    color: white;
+}

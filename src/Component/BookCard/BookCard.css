@@ -1,0 +1,37 @@
+.book-container-fluid{
+    background-color: rgb(223, 222, 222);
+    
+}
+.book-container{
+    background-color: white;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+.card-title{
+    height: 100px;
+}
+.card-img-container{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.card-img-top{
+    height: 400px;
+}
+.card-price{
+    color:  #19103F;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-btn{
+    background-color: #19103F;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

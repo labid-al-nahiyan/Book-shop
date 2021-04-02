@@ -1,0 +1,17 @@
+.add-form{
+    background-color: rgb(223, 222, 222);
+    padding: 10px;
+}
+.add-btn{
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:  #19103F;
+    color: white;
+}
+.add-title{
+    background-color:  #19103F;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}

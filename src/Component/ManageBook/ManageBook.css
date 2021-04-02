@@ -1,0 +1,22 @@
+.manage-row{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.manage-head{
+    background-color: rgb(221, 220, 220);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.manage-container{
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(223, 222, 222);
+}
+.manage-title{
+    background-color:  #19103F;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,15 @@
+.order-row{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.order-head{
+    background-color: rgb(221, 220, 220);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.orders-container{
+    padding: 10px;
+}

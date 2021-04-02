@@ -1,0 +1,35 @@
+.header{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: #19103F;
+    color: white;
+
+}
+.header-title{
+    display: flex;
+
+    font-family: 'Chango', cursive;
+        margin-left: 60px;
+}
+
+
+.header-nav{
+    list-style: none;
+    display: flex;
+    margin-right: 60px;
+    justify-content: flex-end;
+}
+.header-nav li{
+    padding: 20px;
+    
+    font-style: 25px;
+    color: white;   
+    /* font-family: 'Chango', cursive; */
+
+}
+#login{
+    background-color: #2F216A;
+    color: white;
+    border-radius: 5px;
+    
+}
