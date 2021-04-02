@@ -10,7 +10,7 @@ const AddBook = () => {
         price: ''
     })
     const addBook = () => {
-        fetch('http://localhost:5000/addBooks', {
+        fetch('https://shrouded-oasis-92850.herokuapp.com/addBooks', {
             method: 'POST',
             headers: {
                 "Content-type": "application/json"

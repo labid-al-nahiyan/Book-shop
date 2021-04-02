@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const BookCard = () => {
     const [books, setBooks] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/books')
+        fetch('https://shrouded-oasis-92850.herokuapp.com/books')
             .then(res => res.json())
             .then(data => {
                 console.log(data)

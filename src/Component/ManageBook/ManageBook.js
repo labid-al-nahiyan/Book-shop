@@ -5,7 +5,7 @@ import './ManageBook.css'
 const ManageBook = () => {
     const [books,setBooks]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/addBooks')
+        fetch('https://shrouded-oasis-92850.herokuapp.com/addBooks')
         .then(res=>res.json())
         .then(data=>{
             console.log(data)
@@ -15,7 +15,7 @@ const ManageBook = () => {
     const handleRemoveBook=(id)=>{
         console.log(id)
     
-        const url=`http://localhost:5000/delete/${id}`
+        const url=`https://shrouded-oasis-92850.herokuapp.com/delete/${id}`
         fetch(url,{
             method:'DELETE'
         })

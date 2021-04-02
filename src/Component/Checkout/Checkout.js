@@ -11,7 +11,7 @@ const Checkout = () => {
     
     console.log(id)
     useEffect(() => {
-        const url = `http://localhost:5000/checkout/${id}`
+        const url = `https://shrouded-oasis-92850.herokuapp.com/checkout/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -29,7 +29,7 @@ const Checkout = () => {
         }
         const newOrder={...loggedInUser,...newBook}
         console.log(newOrder)
-        fetch('http://localhost:5000/placeOrder',{
+        fetch('https://shrouded-oasis-92850.herokuapp.com/placeOrder',{
             method:'POST',
             headers:{
                 'Content-type':'application/json'

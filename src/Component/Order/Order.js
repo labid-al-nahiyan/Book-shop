@@ -7,7 +7,7 @@ const Order = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     const [orders,setOrders] = useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/orders?email=${loggedInUser.email}`,{
+        fetch(`https://shrouded-oasis-92850.herokuapp.com/orders?email=${loggedInUser.email}`,{
             method: 'GET',
             headers:{
                 'Content-type':'application/json'
