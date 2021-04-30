@@ -1,7 +1,7 @@
 
 <h2>Book Shop </h2>
 <ul>
-  <li> Able to add Book in Book List<li>
+  <li> Able to add Book in Book List</li>
   <li>Order book from Book list</li>
   <li>Able to see order list</li>
   </ul>
